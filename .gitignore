@@ -1,0 +1,15 @@
+### XamarinStudio ###
+bin/
+obj/
+packages/
+*.userprefs
+.DS_Store
+
+
+*.suo
+
+*.bak
+
+*.user
+
+Resource.designer.cs
