@@ -8,6 +8,12 @@ namespace BindableTableView
 {
     public class BindableTableView : TableView
     {
+        public BindableTableView ()
+        {
+            Root = new TableRoot();
+            Intent = TableIntent.Settings;
+        }
+
         void AddSectionToTable(IEnumerable<TableSectionViewModel> viewModels)
         {
             if (Root != null)

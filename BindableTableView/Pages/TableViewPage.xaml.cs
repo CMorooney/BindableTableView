@@ -6,6 +6,8 @@ namespace BindableTableView
     {
         public TableViewPage()
         {
+            BindingContext = new TableViewPageViewModel();
+
             InitializeComponent();
         }
     }
