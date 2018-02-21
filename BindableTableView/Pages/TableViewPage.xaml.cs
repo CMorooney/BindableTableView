@@ -2,9 +2,9 @@
 
 namespace BindableTableView
 {
-    public partial class BindableTableViewPage : ContentPage
+    public partial class TableViewPage : ContentPage
     {
-        public BindableTableViewPage()
+        public TableViewPage()
         {
             InitializeComponent();
         }
